@@ -10,7 +10,7 @@ class Missions extends Component {
     // console.log(missions[0].name);
     //  missions.map(({name, year, country, destination}) => console.log(name, year, country, destination))
     return (
-      <div data-testid="missions">
+      <div data-testid="missions" className="divMissions">
         <Title headline="Missões" />
         {missions.map(({ name, year, country, destination }) => (<MissionCard
           key={ name }

@@ -8,7 +8,7 @@ class SolarSystem extends Component {
     // const { planets } = this.props;
     // vou utilizar o PlanetCard para organizar as informações que virao da lista
     return (
-      <div data-testid="solar-system">
+      <div data-testid="solar-system" className="divSolarSystem">
         <Title headline="Planetas" />
         {planets.map(({ name, image }) => (<PlanetCard
           key={ name }

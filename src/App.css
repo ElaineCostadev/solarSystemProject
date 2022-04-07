@@ -1,3 +1,107 @@
+#root {
+  margin: -2%;
+  padding: 50px;
+  font-weight: bolder;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: xx-large;
+  color: blanchedalmond;
+  background-image: url('images/background.png');
+  opacity: 0.95;
+}
+
 .App {
+  height: 100vh;
+  width: 100%;
+  
+}
+
+.Header { 
+  margin: 0;
+  padding: 0;
+  font-weight: bolder;
+}
+
+h1 {
   text-align: center;
 }
+
+h2 {
+  font-weight: light;
+}
+
+.h2-planet {
+  position: relative;
+  border-style: solid;
+  border-radius: 50px;
+  text-align: center;
+  align-self: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 95%;
+  
+}
+
+.divSolarSystem {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding: 0px 10px 40px;
+  vertical-align:baseline;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardPlanet {
+  margin: 10px;
+  display: flex;
+  display:inline-block;
+  flex-direction: column;
+  max-height: auto;
+  width: 150px;
+}
+.cardPlanet p{
+  font-weight: lighter;
+}
+
+.imgPlanet {
+  width: 100px;
+}
+
+.divMissions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+
+}
+
+.missonCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: rgb(199, 158, 158) solid 2px;
+  padding: 10px;
+  flex-basis: 10em;
+  border-radius: 50px;
+  margin: 20px;
+}
+
+.missonCard p.name{
+  width: 300px;
+  border-bottom: 2px solid white;
+  font-weight: bolder;
+  text-align: center;
+  font-size: x-large;
+
+}
+
+.missonCard p {
+  font-weight: lighter;
+  text-align: left;
+  font-size: x-large;
+
+}
+
+
+
