@@ -14,7 +14,6 @@ class PlanetCard extends Component {
     );
   }
 }
-
 PlanetCard.propTypes = {
   planetName: PropTypes.string.isRequired,
   planetImage: PropTypes.string.isRequired,
